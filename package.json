@@ -1,0 +1,24 @@
+{
+  "name": "stay-smart-project-vue---jest",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "vue-cli-service build",
+    "serve": "vue-cli-service serve"
+  },
+  "dependencies": {
+    "@vue/cli-service": "^5.0.9",
+    "@vue/compiler-sfc": "^3.5.43",
+    "core-js": "^3.50.0",
+    "vue": "^3.5.43",
+    "vue-router": "^5.4.0",
+    "jest":"^30.5.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-unit-jest": "^5.0.9"
+  }
+}

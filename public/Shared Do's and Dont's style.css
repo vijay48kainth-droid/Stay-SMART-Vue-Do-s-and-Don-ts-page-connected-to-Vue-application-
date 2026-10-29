@@ -1,0 +1,569 @@
+/* SHARED STYLES */
+
+/* HEADER IMAGE */
+
+.dos-header-image,
+.donts-header-image {
+ 
+    max-width: 100%;
+    height: auto;
+}
+
+/* Do's */
+
+.dos-header-image {
+     width:280px;
+}
+
+.dos-header-side {
+    padding-left: 1%;
+    margin-right:10%;
+}
+
+/* Don'ts */
+
+.donts-header-image {
+    width: 250px;
+}
+
+.donts-header-side {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+/* EMAIL SECTION */
+
+.report-email-image {
+    width: 6%;
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 17%;
+    border-top-right-radius: 17%;
+    border-bottom-left-radius: 17%;
+    border-bottom-right-radius: 17%;
+}
+
+/* Do's */
+
+#dos-email-container {
+    background-color: green;
+    color: antiquewhite;
+}
+
+/* Don'ts */
+
+#donts-email-container {
+    background-color: red;
+    color: antiquewhite;
+}
+
+
+/* MAIN CONTENT */
+
+
+.main-content-dos,.main-content-donts {
+    background-color: antiquewhite;
+    margin: 0 5%;
+}
+
+
+/* Shared h2 */
+
+h2 {
+    margin-top: 5px;
+}
+
+
+/* DO'S INTRO */
+
+#dos-intro {
+    display: flex;
+}
+
+.dos-title {
+    border-radius: 12px;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    color: limegreen;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+.dos-title h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.do-side-header {
+    text-align: center;
+    background-color: green;
+}
+
+.do-phone {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    alignment-baseline: center;
+    float: left;
+}
+
+
+.donts-subheading,.donts-paragraph{
+    text-align: right;
+}
+
+.dos-subheading,.donts-subheading {
+    font-size: 242%;
+    font-family: Impact, Haettenschweiler,'Arial Narrow Bold', sans-serif;
+}
+
+.dos-paragraph,.donts-paragraph {
+    font-size: 180%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    padding-left: 1%;
+}
+
+
+/* DON'TS INTRO */
+
+#donts-intro {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#donts-side-header {
+    width: 40%;
+    display: flex;
+    background-color: red;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#donts-side-header h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    font-size: xx-large;
+}
+
+.dont-image {
+    width: 70%;
+    max-width: 100%;
+    height: auto;
+    alignment-baseline: center;
+}
+
+.donts-header-side {
+    padding-right: 1%;
+}
+
+.donts-title {
+    border-radius: 12px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    font-size: xx-large;
+}
+
+.donts-title h1 {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* THREAT IMAGE */
+
+#threat-image {
+    max-width:120px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    height: 90px;
+    object-fit: fill;
+    padding:0;
+    margin:0;
+}
+
+#threat-image-wide {
+    max-width:137px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    height: 90px;
+    object-fit:fill;
+    padding:0;
+    margin:0;
+}
+
+/* space background */
+
+
+#space {
+    padding-bottom: 20px;
+    align-self: center;
+    width: 100%;
+    
+    /* Tweaked to match the exact desaturated slate-blue colors from the phones image */
+    background: linear-gradient(
+      to right,
+      #2c353e 0%,    /* Muted slate gray from the left side of the phones */
+      #1e252c 45%,   /* Deep mid-tone charcoal-blue transition */
+      #12161a 100%   /* Very deep slate-black to blend perfectly on the right */
+    );
+}
+
+/* Keeps your image centered with a clean layout */
+#space .dont-space-image {
+    display: block;
+    margin: 0 auto; 
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.dont-space-image{
+    width:65%;
+    border-bottom-left-radius: 8.1%;
+
+}
+
+.do-space-image{
+    width:100%;
+}
+
+.do-space-image,.dont-space-image{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Threat-intro */
+
+#header-intro{
+    background-color: bisque;
+    margin:10px;
+    max-width:fit-content;
+    padding:4px;
+    border-style:outset;
+    border-radius: 16px;
+}
+
+
+/* THREAT ROWS */
+
+#threat-rows,#threat-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2px;
+    
+    h2{
+        font-family: monospace;
+        margin-bottom:2%;
+    }
+}
+
+#threat-list{
+    width:37%;
+    padding-right:2px;
+    
+}
+
+
+.do-font,
+.dont-font{
+    font-style: italic;
+    margin:40%;
+    align-items: center;
+    line-height: 1.2;
+}
+
+.do-font{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.dont-font{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+/* THREAT HEADERS AND DESCRIPTIONS */
+
+.header,
+.wide-description {
+    width: 400px;
+    max-width: 100%;
+    border-radius: 12px;
+    background-color: bisque;
+    margin: 5px;
+    padding:0;
+}
+
+.header{
+    font-size: 20px;
+    
+}
+
+.wide-description {
+    width: 500px;
+    max-width: 100%;
+    padding-left: 4px;
+    
+}
+
+
+/* Text inside the threat boxes */
+
+.wide-description p{
+    font-size: 21px;
+}
+
+.header p,
+.wide-description p {
+    
+    padding:0;
+    margin:2px;
+}
+
+
+/* THREAT SHAPES */
+
+.threat-shape {
+    width: 320px;
+    max-width: 60%;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.threat-shape h1 {
+    overflow-wrap:break-word;
+    padding:0;
+    margin:0;
+}
+
+
+/* R.A.T */
+
+.threat-rat {
+    padding: 5px;
+    width: 320px;
+    max-width: 100%;
+    height: 25%;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    
+}
+
+.threat-rat h1 {
+    margin-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.threat-rat h4 {
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 109%;
+}
+
+.threat-rat-img {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+    padding:0;
+    margin:0;
+}
+
+/* shadow effect */
+
+.threat-rat,.threat-shape,.header,.wide-description{
+    box-shadow:-5px -5px 5px 2px  rgba(0, 0, 0, 0.4);
+}
+
+
+/* SHIELD IMAGES */
+
+/* Same width on both pages */
+
+.do-shield-image,
+.dont-shield-image {
+    
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* DO'S / DON'TS LIST HEADER */
+
+/* Do's */
+
+.do-list,.dont-list{
+    width: 300px;
+    max-width: 100%;
+    margin: 3px;
+    font-size: 20px;
+
+}
+
+.do-list,.dont-list {
+    cursor:pointer;
+}
+
+
+.do-list {
+    border-radius: 12px;
+    background-color: green;
+    color: black;
+    border-color: green;
+
+}
+
+/* Don'ts */
+
+.dont-list {
+    border-radius: 12px;
+    background-color: red;
+    color: black;
+    font-family:'Times New Roman', Times, serif; 
+    border-color:red;
+}
+
+section{
+    align-self: center;
+
+    background:lightgray;
+    width:90%;
+    margin:auto;
+    padding-top:20px;
+
+}
+
+/* RESPONSIVE DESIGN - TABLETS (900px) */
+@media screen and (max-width: 900px) {
+    #header, nav ul, #threat-rows {
+        flex-wrap: wrap;
+    }
+
+    .dos-header-image, .donts-header-image {
+        width: 30%;
+    }
+
+    #dos-intro, #donts-intro {
+        flex-direction: column;
+    }
+
+    #do-side-header, #donts-side-header, .dos-Header-Side, .donts-header-side {
+        width: 100%;
+    }
+
+    #dos-Header-Side, .donts-header-side {
+        padding: 0 1%;
+    }
+
+    .do-Phone, .dont-image {
+        width: 60%;
+        max-width: 100%;
+        margin: auto;
+        float: none;
+    }
+
+    .threat-shape, .wide-description, .header, .threat-rat, .do-list, .dont-list {
+        width: 45%;
+        max-width: 100%;
+    }
+
+    #threat-list{
+        width:100%;
+    }
+
+    
+}
+
+/* RESPONSIVE DESIGN - SMART PHONES (600px) */
+@media screen and (max-width: 600px) {
+    /* Edge-to-edge layout reset */
+    html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* Force sections to take full edge-to-edge width */
+    .main-content-dos, .main-content-donts, #space, section {
+        width: 100% !important;
+        margin: 0 !important;
+        border-radius: 0 !important;
+    }
+
+    #header, nav ul, #threat-rows,#threat-list, .email-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo-headtag, .email-container form, .email-container input, #Search-box {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    #logo-headtag h1, .dos-title, .donts-title, .threat-shape h1,.dos-subheading, .donts-subheading { font-size: x-large; }
+    #logo-headtag h2, .main-content-dos h2, .main-content-donts h2,.dos-paragraph,.donts-paragraph { font-size: large; }
+    .header p, .wide-description p { font-size: medium; }
+
+    .dos-header-image, .donts-header-image, .dont-image {
+        width: 70%;
+        max-width: 300px;
+        margin: auto;
+        float: none;
+    }
+
+    nav ul, .wide-description, .header {
+        padding: 5px;
+    }
+
+    nav ul li, .email-container button,.do-phone,.dos-title,.donts-title {
+        width: 100%;
+    }
+
+    #nav-search {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .report-email-image { width: 20%; }
+    .do-shield-image, .dont-shield-image { width: 30%; max-width: 100%; }
+    .threat-rat-img { width: 60%; height: 60%; }
+    #threat-image, #threat-image-wide { width: 40%; height: 80px; }
+
+    .threat-shape, .wide-description,#threat-list, .header, .threat-rat, .do-list, .dont-list {
+        width: 95%;
+        max-width: 95%;
+        margin: 5px auto;
+    }
+    
+
+    .threat-shape { min-height: 90px; }
+    .threat-shape h1 { max-width: 55%; }
+}
